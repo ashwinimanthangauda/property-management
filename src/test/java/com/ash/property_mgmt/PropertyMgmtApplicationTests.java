@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class PropertyMgmtApplicationTests {
-
+	//added this method to study
 	@Test
 	void contextLoads() {
 	}

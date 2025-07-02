@@ -10,8 +10,6 @@ public class propertyDTO
     private Long id;
     private String title;
     private String description;
-    private String ownerName;
-    private String ownerEmail;
     private Double price;
     private String address;
 
@@ -37,22 +35,6 @@ public class propertyDTO
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getOwnerName() {
-        return ownerName;
-    }
-
-    public void setOwnerName(String ownerName) {
-        this.ownerName = ownerName;
-    }
-
-    public String getOwnerEmail() {
-        return ownerEmail;
-    }
-
-    public void setOwnerEmail(String ownerEmail) {
-        this.ownerEmail = ownerEmail;
     }
 
     public Double getPrice() {
